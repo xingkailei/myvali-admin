@@ -30,7 +30,7 @@
         <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
     </bean>
 
-    <!--配置扫描DAO接口-->
+    <!--配置扫描DAO接口：-->
     <!--MapperScannerConfigurer和SqlSessionFactoryBean都是来自于mybatis-spring.jar-->
     <!--MapperScannerConfigurer，这个类就是你不写DAO接口实现类的原因-->
     <!--bean时，什么时候需要些id属性？ 如果这个bean定义好了以后需要在别的地方被引用就需要添加id属性-->
